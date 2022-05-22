@@ -1,6 +1,9 @@
 module.exports = {
   content: ['./src/index.html'],
   theme: {
+    fontFamily: {
+      sans: ['Calibri', 'sans-serif'],
+    },
     extend: {
       colors: {
         rollerOrange: '#FF6900',
@@ -11,6 +14,7 @@ module.exports = {
         rollerBlueDark: '#3D84FF',
         rollerBlueLight: '#8CB7EA',
         rollerBlueLighter: '#CDDCF9',
+        rollerGreyDarkest: '#616467',
         rollerGreyDark: '#D5D5D5',
         rollerGrey: '#EBEBEB',
         rollerGreyLight: '#F7F7F7',
